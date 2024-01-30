@@ -65,3 +65,4 @@ Homestead.yaml
 *.tmp
 *.driveupload
 *.drivedownload
+**/desktop.ini
