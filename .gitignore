@@ -11,7 +11,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-
+desktop.ini
 # Ignore configuration files that might contain sensitive information
 /config/app.php
 /config/database.php
@@ -64,3 +64,5 @@ Homestead.yaml
 *.ini
 *.tmp
 *.driveupload
+*.drivedownload
+**/desktop.ini

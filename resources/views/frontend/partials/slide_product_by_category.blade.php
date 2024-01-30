@@ -22,7 +22,6 @@
                                         data-src="{{ uploaded_asset($product->thumbnail_img) }}"
                                         alt="{{ $product->getTranslation('name') }}"
                                         onerror="this.onerror=null;this.src='{{ static_asset('assets/img/placeholder.jpg') }}';">
-
                                     @if ($product->discount_type == 'percent')
                                         <span class=" offer-badge ">{{ $product->discount }}%</span>
                                     @endif
