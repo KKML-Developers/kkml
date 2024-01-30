@@ -1,0 +1,66 @@
+# Ignore the following directories and files
+
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.env
+/.env.*
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Ignore configuration files that might contain sensitive information
+/config/app.php
+/config/database.php
+/config/mail.php
+/config/services.php
+/config/*.key
+
+# Ignore any local development files
+/.vscode
+/.DS_Store
+/public/hot
+/public/storage
+/storage/*.sqlite
+/storage/*.sqlite3
+/storage/*.zip
+/storage/*.log
+
+# Ignore composer lock file
+composer.lock
+
+# Ignore Mix-manifest file
+mix-manifest.json
+
+# Ignore session, cache, views, etc.
+/storage/framework/*
+/storage/logs/*
+/storage/app/*.log
+/storage/app/public/*
+
+# Ignore PHPUnit coverage directory
+/phpunit.xml
+/coverage
+/phpunit.xml
+/phpunit-*.xml
+
+# Ignore user-specific files
+Homestead.json
+Homestead.yaml
+/.vagrant
+.vagrant/
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore editor specific files
+*.sublime-project
+*.sublime-workspace
+*.idea/*
+*.iml
+*.ini
+*.tmp
+*.driveupload
