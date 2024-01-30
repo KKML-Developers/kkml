@@ -107,7 +107,7 @@
                 <div class="px-2 py-4 px-md-4 py-md-3 kkml-hot-deal-bg">
                     <div class="row gutters-10">
                         <div class="col-lg-12">
-                            <div class=" rounded-top d-flex align-items-center justify-content-start">
+                            <div class=" rounded-top d-flex align-items-baseline justify-content-start">
                                 <h3><span class="fw-700 fs-16 mr-2 text-truncate">
                                         {{ translate('Special Offer') }}
                                     </span>

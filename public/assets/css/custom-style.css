@@ -280,6 +280,10 @@ object-fit: cover;
     right: -4px;
 }
 
+/* navbar  */
+
+/* ___________________________Responsive______________________________________  */
+
 /* Responsive for badge */
 @media (max-width: 426px) {
     .offer-badge {
